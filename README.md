@@ -38,7 +38,7 @@ The final dashboard was enhanced with additional analytics, KPI tracking, busine
 
 ![Executive Dashboard](screenshots/executive_overview.png)
 
-### Executive Overview
+### Monthly View
 
 ![Executive Dashboard](screenshots/Monthly_Analysis.png)
 
