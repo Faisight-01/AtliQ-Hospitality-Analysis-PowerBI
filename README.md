@@ -92,11 +92,11 @@ The dashboard was developed based on a stakeholder-provided mockup.
 
 ### Performance Analysis
 
-![Performance Dashboard](screenshots/Monthly_overview.png)
+![Performance Dashboard](screenshots/Monthly_Analysis.png)
 
 ### Insights Dashboard
 
-![Insights Dashboard](screenshots/insights_page.png)
+![Insights Dashboard](screenshots/insights_page..png)
 
 ### Calendar Heatmap
 
