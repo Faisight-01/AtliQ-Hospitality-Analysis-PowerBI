@@ -137,7 +137,7 @@ Examples of measures developed during the project:
 
 ### Stakeholder Mockup
 
-![Stakeholder Mockup](resources/stakeholder_mockup.png)
+![Stakeholder Mockup](resources/Stakeholder_mockup.png)
 
 ### Executive Dashboard
 
