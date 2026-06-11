@@ -44,7 +44,7 @@ The final dashboard was enhanced with additional analytics, KPI tracking, busine
 
 ### Insights Page
 
-![Insights Dashboard](screenshots/insights_page.png)
+![Insights Dashboard](screenshots/insights_page..png)
 
 ### Calendar Heatmap
 
