@@ -13,7 +13,7 @@ The project was developed based on a stakeholder-provided dashboard mockup.
 
 ### Mockup Dashboard
 
-![Stakeholder Mockup](resources/stakeholder_mockup.png)
+![Stakeholder Mockup](resources/Stakeholder_mockup.png)
 
 The final dashboard was enhanced with additional analytics, KPI tracking, business insights, and interactive features beyond the original mockup.
 ## Tools Used
