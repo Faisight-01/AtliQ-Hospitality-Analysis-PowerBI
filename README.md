@@ -74,15 +74,13 @@ The project utilizes hospitality booking and hotel performance datasets provided
 
 The dashboard was developed based on a stakeholder-provided mockup.
 
-![Stakeholder Mockup](resources/stakeholder_mockup.png)
+![Stakeholder Mockup](resources/Stakeholder_mockup.png)
 
 ---
 
 ## Data Model
 
-Implemented a star-schema data model using fact and dimension tables to ensure accurate KPI calculations and efficient dashboard performance.
-
-![Data Model](resources/data_model.png)
+![Data Model](resources/Data_model.png)
 
 ---
 
@@ -94,7 +92,7 @@ Implemented a star-schema data model using fact and dimension tables to ensure a
 
 ### Performance Analysis
 
-![Performance Dashboard](screenshots/performance_page.png)
+![Performance Dashboard](screenshots/Monthly_overview.png)
 
 ### Insights Dashboard
 
@@ -186,5 +184,4 @@ Aspiring Data Analyst passionate about transforming raw data into actionable bus
 
 ### Connect With Me
 
-- LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN
-- GitHub: https://github.com/YOUR-GITHUB
+- LinkedIn: [https://www.linkedin.com/in/faisal-sayyed1/]
