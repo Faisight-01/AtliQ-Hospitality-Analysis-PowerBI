@@ -1,44 +1,58 @@
 # AtliQ Hospitality Analysis Dashboard | Power BI
 
+As part of the Codebasics Hospitality Analytics Challenge, I developed an end-to-end Power BI solution to analyze hotel performance, revenue trends, occupancy patterns, and booking behavior. The project focused on transforming raw hospitality data into actionable business insights through interactive dashboards and KPI reporting.
+
 ---
 
-## Problem statement
+## Challenge Link
 
-Atliq Grands owns multiple five-star hotels across India. They have been in the hospitality industry for the past 20 years. Due to strategic moves from other competitors and ineffective decision-making in management, Atliq Grands are losing its market share and revenue in the luxury/business hotels category. As a strategic move, the managing director of Atliq Grands wanted to incorporate “Business and Data Intelligence” in order to regain their market share and revenue. However, they do not have an in-house data analytics team to provide them with these insights.
+🔗 https://codebasics.io/challenge/codebasics-resume-project-challenge
 
-Their revenue management team had decided to hire a 3rd party service provider to provide them insights from their historical data.
+---
 
-### Task List
+## Problem Statement
 
-You are a data analyst who has been provided with sample data and a mock-up dashboard to work on the following task. You can download all relevant documents from the download section.
+AtliQ Grands is a luxury hotel chain operating across multiple cities in India. Due to increasing competition and ineffective decision-making, the company has been losing market share in the luxury and business hotel segment.
 
-- Create the metrics according to the metric list. 
-- Create a dashboard according to the mock-up provided by stakeholders. 
-- Create relevant insights that are not provided in the metric list/mock-up dashboard.
+To support data-driven decision-making, the management wanted to leverage Business Intelligence and Analytics to better understand revenue performance, occupancy trends, customer behavior, and booking cancellations.
 
-## Stakeholder Requirements
+As a Data Analyst, the objective was to build an interactive dashboard that transforms raw hospitality data into meaningful business insights.
 
-The dashboard was developed based on a stakeholder-provided mockup and business requirements.
+---
 
-Key requirements included:
+## Task List
 
-- Revenue Analysis
-- Occupancy Tracking
-- Property Performance Monitoring
-- City-Level Analysis
-- Booking Platform Analysis
-- Week-over-Week Trend Analysis
-- Interactive Filtering
-- KPI Tracking
+As a Data Analyst, I was provided with hospitality datasets and a stakeholder-defined dashboard mockup to complete the following tasks:
+
+- Create and validate business metrics based on the provided metric requirements.
+- Develop an interactive Power BI dashboard aligned with stakeholder expectations.
+- Analyze hospitality performance across properties, cities, and booking platforms.
+- Generate actionable business insights beyond the provided requirements.
+- Present key findings through effective data visualization and dashboard storytelling.
 
 ---
 
 ## Tools & Technologies Used
 
 - Power BI
-- Power Query
 - DAX
+- Power Query
 - Excel
+
+---
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- KPI Reporting
+- Dashboard Development
+- Data Visualization
+- Business Analytics
+- Hospitality Analytics
+- Dashboard Storytelling
+- Business Intelligence
 
 ---
 
@@ -54,29 +68,45 @@ The project utilizes hospitality booking and hotel performance datasets provided
 - fact_bookings.csv
 - fact_aggregated_bookings.csv
 
-All source files are available in the `datasets` folder.
+---
+
+## Stakeholder Mockup
+
+The dashboard was developed based on a stakeholder-provided mockup.
+
+![Stakeholder Mockup](resources/stakeholder_mockup.png)
 
 ---
 
-## Data Modeling
+## Data Model
 
-Designed a star-schema data model using fact and dimension tables to ensure efficient performance, scalability, and accurate KPI calculations.
+Implemented a star-schema data model using fact and dimension tables to ensure accurate KPI calculations and efficient dashboard performance.
 
-### Key Modeling Concepts Applied
-
-- Fact and Dimension Tables
-- Data Relationships
-- Data Transformation
-- Business Logic Implementation
-- KPI Calculation Framework
+![Data Model](resources/data_model.png)
 
 ---
 
-## Dashboard Features
+## Dashboard Views
 
 ### Executive Overview
 
-Tracks key hospitality metrics:
+![Executive Dashboard](screenshots/executive_overview.png)
+
+### Performance Analysis
+
+![Performance Dashboard](screenshots/performance_page.png)
+
+### Insights Dashboard
+
+![Insights Dashboard](screenshots/insights_page.png)
+
+### Calendar Heatmap
+
+![Calendar Heatmap](screenshots/heatmap.png)
+
+---
+
+## Key Metrics Tracked
 
 - Revenue
 - Occupancy %
@@ -84,91 +114,20 @@ Tracks key hospitality metrics:
 - RevPAR (Revenue Per Available Room)
 - Realisation %
 - Cancellation Rate
-- Average Customer Rating
-
-### Performance Analysis
-
-Provides detailed performance monitoring through:
-
-- Week-over-Week KPI Comparison
-- Revenue Trend Analysis
-- Occupancy Trend Analysis
-- Property-Level Performance Tracking
-- City-Level Analysis
-
-### Interactive Features
-
-Implemented interactive user experience features including:
-
-- Dynamic KPI Cards
-- Interactive Slicers
-- Property-Level Filtering
-- City-Level Filtering
-- Month and Week Analysis
-- Dashboard Navigation
-- Bookmarks
-- Dynamic Visual Interactions
-
-### Custom Calendar Heatmap
-
-Developed a custom calendar heatmap using matrix visuals and conditional formatting to provide a clear view of occupancy trends over time.
-
-This visualization helps stakeholders quickly identify high-performing and low-performing periods.
-
----
-
-## Key DAX Measures Created
-
-Examples of measures developed during the project:
-
-- Revenue
-- Occupancy %
-- ADR
-- RevPAR
-- Realisation %
-- Cancellation Rate
 - Average Rating
-- Week-over-Week KPI Analysis
-- Dynamic KPI Variance Metrics
-
----
-
-## Dashboard Preview
-
-### Stakeholder Mockup
-
-![Stakeholder Mockup](resources/Stakeholder_mockup.png)
-
-### Executive Dashboard
-
-![Executive Dashboard](screenshots/executive_overview.png)
-
-### Performance Analysis
-
-![Performance Dashboard](screenshots/Monthly_overview.png)
-
-### Insights Page
-
-![Insights Page](screenshots/insights_page..png)
-
-### Calendar Heatmap
-
-![Calendar Heatmap](screenshots/heatmap.png)
-
-### Data Model
-
-![Data Model](resources/data_model.png)
+- Week-over-Week Performance
 
 ---
 
 ## Key Business Insights
 
-- Mumbai emerged as the highest revenue-generating city.
-- Revenue contribution varied significantly across cities and properties.
-- Booking cancellations had a substantial impact on realized revenue.
-- Occupancy trends differed across weekdays and weekends.
-- Certain room categories contributed more bookings while also experiencing higher cancellation rates.
-- Property performance varied across locations, highlighting opportunities for operational improvements.
+- Mumbai generated the highest overall revenue among all cities.
+- Booking cancellations had a significant impact on realized revenue.
+- Revenue contribution varied across cities and hotel properties.
+- Occupancy performance differed across weekdays and weekends.
+- Certain room categories attracted higher bookings while also experiencing higher cancellation rates.
+- Property-level analysis highlighted opportunities for improving occupancy and revenue realization.
+- Performance trends helped identify top-performing and underperforming locations.
 
 ---
 
@@ -176,37 +135,48 @@ Examples of measures developed during the project:
 
 Through this project, I gained hands-on experience in:
 
-- Data Cleaning and Transformation using Power Query
-- Data Modeling using Fact and Dimension Tables
-- Creating Advanced DAX Measures
-- Hospitality KPI Analysis
-- Dashboard Storytelling
-- Stakeholder Requirement Analysis
-- Business Performance Reporting
-- Interactive Dashboard Development
-- Bookmarks and Navigation Design
-- Custom Calendar Heatmap Development
+- Creating hospitality KPIs using DAX.
+- Building a custom calendar heatmap using matrix visuals and conditional formatting.
+- Implementing data modeling using fact and dimension tables.
+- Designing interactive dashboards using bookmarks and navigation buttons.
+- Applying dashboard storytelling principles to communicate business insights effectively.
+- Translating stakeholder requirements into business-focused analytical solutions.
+- Performing KPI analysis using Revenue, ADR, RevPAR, Occupancy %, and Cancellation metrics.
 
 One of the biggest learnings from this project was understanding how business requirements, analytics, and dashboard design come together to support decision-making.
 
 ---
 
-## Skills Demonstrated
+## Dashboard Features
 
-- Power BI
-- DAX
-- Power Query
-- Data Modeling
-- Data Analysis
-- Data Visualization
-- Dashboard Development
-- KPI Reporting
-- Business Analytics
+### Executive Overview
 - Revenue Analysis
-- Hospitality Analytics
-- Business Intelligence
+- Occupancy Analysis
+- ADR & RevPAR Tracking
+- Realisation %
+- Cancellation Analysis
+- Customer Rating Monitoring
 
----
+### Performance Analysis
+- Week-over-Week KPI Tracking
+- Trend Analysis
+- Property Performance Monitoring
+- City-Level Analysis
+
+### Interactive Features
+- Dynamic KPI Cards
+- Interactive Slicers
+- Property Filters
+- City Filters
+- Dashboard Navigation
+- Bookmarks
+- Dynamic Visual Interactions
+
+### Custom Calendar Heatmap
+- Occupancy Trend Analysis
+- Daily Performance Monitoring
+- Conditional Formatting Visualization
+
 
 ## Author
 
@@ -216,4 +186,5 @@ Aspiring Data Analyst passionate about transforming raw data into actionable bus
 
 ### Connect With Me
 
-- LinkedIn: [https://www.linkedin.com/in/faisal-sayyed1/]
+- LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN
+- GitHub: https://github.com/YOUR-GITHUB
